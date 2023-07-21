@@ -1,13 +1,139 @@
+:root {
+  --background-c: #2e2f42;
+  --highlight-c: #4d5ae5;
+  --main-font-c: #434455;
+  --cloud: #f4f4fd;
+}
+
 body {
   font-family: "Roboto", sans-serif;
-  color: 212121;
+  color: #212121;
   text-decoration: none;
+}
+.highlight {
+  color: var(--highlight-c);
+}
+
+.header-studio {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 800;
+  font-family: "Raleway", sans-serif;
+  line-height: 116%;
+}
+
+.logo-header {
+  color: var(--background-c);
+}
+
+.nav-list {
+  list-style: none;
+}
+.nav-list li a {
+  color: var(--main-font-c);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.32px;
+}
+.contacts-list li a {
+  color: var(--main-font-c);
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.32px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+nav a:focus {
+  color: red;
+}
+nav a:hover {
+  color: yellow;
+}
+
+.hero-section {
+  background-color: var(--background-c);
+  text-align: center;
+}
+.hero-section h1 {
+  color: #ffffff;
+  font-size: 56px;
+  font-weight: 700;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  line-height: 107%;
+  letter-spacing: 1.12px;
+  width: 496px;
+}
+.hero-section button {
+  background-color: var(--highlight-c);
+  color: var(--white);
+  font-weight: 500;
+  letter-spacing: 0.64px;
+}
+
+.main-article h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 0.4px;
+  color: var(--background-c);
+}
+.main-article p {
+  font-size: 16px;
+  color: var(--main-font-c);
+  width: 264px;
+}
+.doing-heading {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 111%;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  color: var(--background-c);
+}
+.team-section h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 111%;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  color: var(--background-c);
+}
+.team-section h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 0.4px;
+}
+.team-section p {
+  color: var(--main-font-c);
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.32px;
+}
+.footer-section {
+  background-color: var(--background-c);
+  color: #f4f4fd;
+  font-size: 16px;
+  font-weight: 800;
+}
+.footer-logo {
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+}
+.footer-studio {
+  color: var(--cloud);
+}
+.footer-section {
+  width: 264px;
 }
 ul {
-  text-decoration: none;
+  list-style: none;
 }
-.wrapper {
-  font-family: "Montserrat", sans-serif;
 
-  font-family: "Raleway", sans-serif;
+a {
+  text-decoration: none;
+  color: black;
 }
