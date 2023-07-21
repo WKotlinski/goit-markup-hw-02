@@ -3,12 +3,22 @@
   --highlight-c: #4d5ae5;
   --main-font-c: #434455;
   --cloud: #f4f4fd;
+  --cornflower: #e7e9fc;
+  --ocean: #404bbf;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
   text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  font-family: "Roboto", sans-serif;
 }
 .highlight {
   color: var(--highlight-c);
@@ -68,7 +78,7 @@ nav a:hover {
 }
 .hero-section button {
   background-color: var(--highlight-c);
-  color: var(--white);
+  color: #ffffff;
   font-weight: 500;
   letter-spacing: 0.64px;
 }
@@ -129,11 +139,30 @@ nav a:hover {
 .footer-section {
   width: 264px;
 }
-ul {
+.list {
   list-style: none;
 }
 
-a {
-  text-decoration: none;
-  color: black;
+.filter-list {
+}
+.filter-list-item button {
+  color: var(--highlight-c);
+  background-color: var(--cornflower);
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0, 64px;
+}
+.filter-list-item button:hover {
+  background-color: var(--ocean);
+  cursor: pointer;
+}
+.photo-section h3 {
+  color: var(--background-c);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 0.4px;
+}
+.photo-section p {
+  color: var(--main-font-c);
 }
