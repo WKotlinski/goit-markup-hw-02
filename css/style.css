@@ -54,16 +54,19 @@ button {
   letter-spacing: 0.32px;
 }
 
+.contacts-list li a:hover {
+  color: var(--ocean);
+}
+
 button:hover {
   cursor: pointer;
 }
--nav a:focus {
+nav a:focus {
   color: var(--ocean);
 }
 nav a:hover,
 .contacts-list:hover {
   color: var(--ocean);
-  text-decoration: underline;
 }
 
 .hero-section {
@@ -79,6 +82,7 @@ nav a:hover,
   letter-spacing: 1.12px;
   max-width: 496px;
 }
+
 .hero-section button {
   background-color: var(--iris);
   color: #ffffff;
@@ -90,6 +94,7 @@ nav a:hover,
 .hero-section button:hover {
   background-color: var(--ocean);
 }
+
 .main-article-list-item {
   width: 264px;
 }
@@ -113,9 +118,11 @@ nav a:hover,
   text-transform: capitalize;
   color: var(--navy-blue);
 }
+
 .team-section {
   background-color: var(--cloud);
 }
+
 .team-section h2 {
   font-size: 36px;
   font-weight: 700;
@@ -150,6 +157,7 @@ nav a:hover,
 }
 .footer-section p {
   width: 264px;
+  letter-spacing: 0.02em;
 }
 .list {
   list-style: none;
@@ -161,13 +169,15 @@ nav a:hover,
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0, 64px;
+  letter-spacing: 0.64px;
 }
+
 .filter-list-item button:hover {
   color: white;
   background-color: var(--ocean);
   cursor: pointer;
 }
+
 .photo-section h1 {
   color: white;
 }
